@@ -1,0 +1,17 @@
+### 1️⃣ Get all products
+GET http://localhost:8080/api/products
+Accept: application/json
+
+### 3️⃣ Create a new product
+POST http://localhost:8080/api/products
+Content-Type: application/json
+
+{
+  "code": "RS_001",
+  "name": "Running Shoes",
+  "description": "Comfortable and lightweight running shoes",
+  "price": 120.99,
+  "stockQuantity": 50,
+  "categoryId": 1,
+  "brandId": 2
+}

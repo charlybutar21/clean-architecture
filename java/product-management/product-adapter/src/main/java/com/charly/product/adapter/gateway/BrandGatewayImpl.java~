@@ -1,0 +1,21 @@
+package com.charly.product.adapter.gateway;
+
+import com.charly.product.application.exception.BrandNotFoundException;
+import com.charly.product.application.gateway.product.BrandGateway;
+import com.charly.product.entity.model.product.Brand;
+import com.charly.product.adapter.repository.BrandRepository;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
+
+@Component
+@RequiredArgsConstructor
+public class BrandGatewayImpl implements BrandGateway {
+
+    private final BrandRepository brandRepository;
+
+    @Override
+    public Brand findById(Long id) {
+        return brandRepository.findById(id)
+                .orElseThrow(() -> new BrandNotFoundException(id));
+    }
+}
