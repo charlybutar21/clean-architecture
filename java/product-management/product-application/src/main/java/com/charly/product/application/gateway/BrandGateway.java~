@@ -1,7 +1,0 @@
-package com.charly.product.core.gateway;
-
-import com.charly.product.persistence.entity.Brand;
-
-public interface BrandGateway {
-    public Brand findById(Long id);
-}
