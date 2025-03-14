@@ -12,6 +12,7 @@ public class ListProductResponseEntity {
     Page<ProductResponseEntity> products;
 
     @Data
+    @Builder
     public static class ProductResponseEntity {
         private String code;
         private String name;
@@ -22,13 +23,15 @@ public class ListProductResponseEntity {
         private BrandResponseEntity brand;
 
         @Data
-        private static class CategoryResponseEntity {
+        @Builder
+        public static class CategoryResponseEntity {
             private Long id;
             private String name;
         }
 
         @Data
-        private static class BrandResponseEntity {
+        @Builder
+        public static class BrandResponseEntity {
             private Long id;
             private String name;
         }
