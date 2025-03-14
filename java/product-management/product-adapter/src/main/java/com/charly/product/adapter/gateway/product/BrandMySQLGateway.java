@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
-public class BrandH2Gateway implements BrandGateway {
+public class BrandMySQLGateway implements BrandGateway {
 
     private final BrandRepository brandRepository;
 

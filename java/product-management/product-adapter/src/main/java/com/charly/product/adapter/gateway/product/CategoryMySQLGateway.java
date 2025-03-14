@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
-public class CategoryH2Gateway implements CategoryGateway {
+public class CategoryMySQLGateway implements CategoryGateway {
 
     private final CategoryRepository categoryRepository;
 

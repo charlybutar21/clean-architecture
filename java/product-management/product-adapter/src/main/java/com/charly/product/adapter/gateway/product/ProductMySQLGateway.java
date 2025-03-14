@@ -22,7 +22,7 @@ import org.springframework.util.StringUtils;
 
 @Component
 @RequiredArgsConstructor
-public class ProductH2Gateway implements ProductGateway {
+public class ProductMySQLGateway implements ProductGateway {
 
     private final ProductRepository productRepository;
 
