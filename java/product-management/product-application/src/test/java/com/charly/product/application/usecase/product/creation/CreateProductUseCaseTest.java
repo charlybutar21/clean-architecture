@@ -70,8 +70,8 @@ class CreateProductUseCaseTest {
                 .description("Product Description")
                 .price(BigDecimal.valueOf(1000000))
                 .stockQuantity(10)
-                .category(category)
-                .brand(brand)
+                .categoryId(1L)
+                .brandId(2L)
                 .build();
 
         entityResponse = CreateProductResponseEntity.builder()

@@ -7,8 +7,8 @@ POST http://localhost:8080/api/products
 Content-Type: application/json
 
 {
-  "code": "RS_001",
-  "name": "Running Shoes",
+  "code": "RS_006",
+  "name": "Running Shoes 6",
   "description": "Comfortable and lightweight running shoes",
   "price": 120.99,
   "stockQuantity": 50,

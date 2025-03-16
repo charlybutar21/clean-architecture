@@ -1,14 +1,18 @@
 package com.charly.product.application.dto.product;
 
 import com.charly.product.entity.model.product.ProductStatus;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class ListProductEntityRequest {
     private List<ProductStatus> statuses;
     private String keyword;
