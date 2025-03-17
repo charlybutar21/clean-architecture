@@ -2,8 +2,6 @@ package com.charly.product.application.usecase.product.creation;
 
 import com.charly.product.application.dto.product.CreateProductEntityRequest;
 import com.charly.product.application.dto.product.CreateProductResponseEntity;
-import com.charly.product.application.gateway.product.BrandGateway;
-import com.charly.product.application.gateway.product.CategoryGateway;
 import com.charly.product.application.gateway.product.ProductEventGateway;
 import com.charly.product.application.gateway.product.ProductGateway;
 import com.charly.product.application.util.JsonUtil;
@@ -21,9 +19,7 @@ import org.springframework.transaction.support.TransactionSynchronizationManager
 public class CreateProductUseCase implements CreateProductInputBoundary{
 
     private final ProductEventGateway productEventGateway;
-    private final CategoryGateway categoryGateway;
     private final ProductGateway productGateway;
-    private final BrandGateway brandGateway;
     private final ModelMapper modelMapper;
 
     @Override
