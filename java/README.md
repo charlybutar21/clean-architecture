@@ -1,4 +1,4 @@
-# Clean Architecture
+# Product Management 
 
 ## Overview
 Product Management is a Spring Boot-based application designed to manage product-related data efficiently. Built with Java 17 and Spring Boot 3.4.3, this application leverages various modern technologies to ensure scalability, maintainability, and ease of deployment.
