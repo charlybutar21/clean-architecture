@@ -5,16 +5,8 @@ This project follows the Clean Architecture principles, ensuring a clear separat
 ![img.png](assets/images/ca-flow.png)
 
 ## Technologies Used
-- Java 17
-- Spring Boot 3.4.3
-- Spring MVC (REST-ful API development)
-- Spring Data JPA (Persistence layer)
-- FlywayDB (Database version control)
-- Kafka (Event-driven messaging system)
-- Lombok (Boilerplate code reduction)
-- ModelMapper (Object mapping)
-- Spring Boot Validation (Input validation)
-- Docker (Containerization)
+- Java 17 & Spring Boot 3.4.3
+- Golang 1.20
 
 ## Clean Architecture Layers
 Clean Architecture organizes the project into four main layers, ensuring separation of concerns and flexibility:
@@ -38,31 +30,10 @@ Clean Architecture organizes the project into four main layers, ensuring separat
 ## Getting Started
 ### Prerequisites
 - Install Java 17, Docker, and Docker Compose
+- Golang 1.20
 - Install MySQL 8.0 (or use Docker)
 
-### Running the Application
-1. Clone the repository:
-```bash
-git clone https://github.com/your-repo.git
-cd your-repo
-```
-
-2. Start services using Docker:
-```bash
-docker-compose up -d
-```
-
-3. Run the Spring Boot application:
-```bash
-mvn clean spring-boot:run
-```
-
-4. Database Migration (Flyway)
-Flyway automatically applies migrations at startup. To apply manually:
-```bash
-mvn flyway:migrate 
-```
-
 ## Conclusion
-This project applies Clean Architecture principles for a modular, scalable, and maintainable application. It ensures flexibility and separation of concerns, making it easy to test, extend, and integrate with new technologies.
+This project applies Clean Architecture principles to create a modular, scalable, and maintainable application. It ensures flexibility and separation of concerns, making it easy to test, extend, and integrate with new technologies.
 
+For contributions or inquiries, feel free to create a pull request or open an issue.
