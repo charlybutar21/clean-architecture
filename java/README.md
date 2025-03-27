@@ -3,25 +3,16 @@
 ## Overview
 Product Management is a Spring Boot-based application designed to manage product-related data efficiently. Built with Java 17 and Spring Boot 3.4.3, this application leverages various modern technologies to ensure scalability, maintainability, and ease of deployment.
 
-Features
-
-Product CRUD Operations: Create and List product data.
-
-Kafka Integration: Asynchronous messaging and event-driven architecture.
-
-MySQL Database: Relational database for product data storage.
-
-FlywayDB: Database migration handling.
-
-JPA (Java Persistence API): ORM for database interaction.
-
-ModelMapper: Simplifies object mapping.
-
-Lombok: Reduces boilerplate code.
-
-Spring MVC: Handles HTTP requests and responses.
-
-Docker: Containerization for easy deployment.
+## Features
+- Product CRUD Operations: Create and List product data.
+- Kafka Integration: Asynchronous messaging and event-driven architecture.
+- MySQL Database: Relational database for product data storage.
+- FlywayDB: Database migration handling.
+- JPA (Java Persistence API): ORM for database interaction.
+- ModelMapper: Simplifies object mapping.
+- Lombok: Reduces boilerplate code.
+- Spring MVC: Handles HTTP requests and responses.
+- Docker: Containerization for easy deployment.
 
 ## Technologies Used
 - Java 17
